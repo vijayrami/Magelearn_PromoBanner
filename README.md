@@ -11,11 +11,10 @@ This Magento 2 module Display a simple promotional banner throughout your websit
 ### Screenshots
 
 #### Order Value Below Free Shipping Minimum
-![Order Value Below Free Shipping Minimum](https://i.postimg.cc/PJC77zyt/free-shipping1.png)
-[url=https://postimg.cc/m1j36WV3][img]https://i.postimg.cc/m1j36WV3/Configuration-Settings-Stores-Magento-Admin-1.png[/img][/url]
+![Order Value Below Free Shipping Minimum](https://i.postimg.cc/m1j36WV3/Configuration-Settings-Stores-Magento-Admin-1.png)
 
 #### Order Value Over Free Shipping Minimum
-![Order Value Over Free Shipping Minimum](https://i.postimg.cc/gjGJqjHq/free-shipping.png)
+![Order Value Over Free Shipping Minimum](https://i.postimg.cc/vxbLzZ7H/Configuration-Settings-Stores-Magento-Admin-2.png)
 
 ## Installation
 
