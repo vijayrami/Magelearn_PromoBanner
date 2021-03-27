@@ -17,7 +17,7 @@ This Magento 2 module Display a simple promotional banner throughout your websit
 [![Configuration-Settings-Stores-Magento-Admin-2.png](https://i.postimg.cc/c4fKns3c/Configuration-Settings-Stores-Magento-Admin-2.png)](https://postimg.cc/Ln66dFNq)
 
 #### System Configuration datepicker
-![Order Value Over Free Shipping Minimum](https://i.postimg.cc/vxbLzZ7H/Configuration-Settings-Stores-Magento-Admin-2.png)
+[![Configuration-Settings-Stores-Magento-Admin-3.png](https://i.postimg.cc/ZYVshSnV/Configuration-Settings-Stores-Magento-Admin-3.png)](https://postimg.cc/9zwYGsG7)
 
 ## Installation
 
