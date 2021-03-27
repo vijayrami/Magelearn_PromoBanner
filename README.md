@@ -4,14 +4,15 @@ Display a simple promotional banner throughout your website. It also includes th
 # Magento 2 Promo Banner
 
 ## Description
-![Free Shipping Progress Bar](https://i.postimg.cc/wBZ4ZcBH/Home-page.png)
+![Promo Banner](https://i.postimg.cc/wBZ4ZcBH/Home-page.png)
 
-This Magento 2 module adds a free shipping progress bar to your Magento site's shopping cart to promote increased order value. The styles used were intended to allow for this module to be a drop-in feature for the luma theme or other themes based on it. All of the animations are CSS based and no javascript is used to limit overhead.
+This Magento 2 module Display a simple promotional banner throughout your website. It also includes the ability to customize the styles of the promotional banner. It provides better idea about to add color picker and date time configuration in magento admin system configuration option.
 
 ### Screenshots
 
 #### Order Value Below Free Shipping Minimum
 ![Order Value Below Free Shipping Minimum](https://i.postimg.cc/PJC77zyt/free-shipping1.png)
+[url=https://postimg.cc/m1j36WV3][img]https://i.postimg.cc/m1j36WV3/Configuration-Settings-Stores-Magento-Admin-1.png[/img][/url]
 
 #### Order Value Over Free Shipping Minimum
 ![Order Value Over Free Shipping Minimum](https://i.postimg.cc/gjGJqjHq/free-shipping.png)
