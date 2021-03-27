@@ -1,0 +1,49 @@
+<?php
+
+use Magelearn\PromoBanner\ViewModel\Header\PromoBanner;
+use Magento\Framework\View\Element\Template;
+
+/** @var Template $block */
+/** @var PromoBanner $viewModel */
+$viewModel = $block->getData('viewModel');
+$promoLink = $viewModel->getPromoLink();
+?>
+<?php if ($viewModel->isEnabled()): ?>
+	<?php
+	$date_now = date("Y-m-d h:i:s"); // this format is string comparable
+	$date_expired = $viewModel->getExpiredDate();
+	if ($date_expired > $date_now): ?>
+    <?php if ($viewModel->isUseCustomStyles()): ?>
+        <?php $customStyles = $viewModel->getCustomStyles(); ?>
+        <style>
+        <?php if ($customStyles['background']): ?>
+        div.promo-banner-wrapper { background: <?= $block->escapeHtml($customStyles['background']) ?> }
+        <?php endif; ?>
+        <?php if ($customStyles['font_size'] || $customStyles['font_weight'] || $customStyles['font_color']): ?>
+        div.promo-banner-wrapper div.promo-banner-message {
+            <?php if ($color = $block->escapeHtml($customStyles['font_color'])): ?>
+            color: <?= $block->escapeHtml($color) ?>;
+            <?php endif; ?>
+            <?php if ($fontSize = $customStyles['font_size']): ?>
+            font-size: <?= $block->escapeHtml($fontSize) ?>;
+            <?php endif; ?>
+            <?php if ($fontWeight = $customStyles['font_weight']): ?>
+            font-weight: <?= $block->escapeHtml($fontWeight) ?>;
+            <?php endif; ?>
+        }
+        <?php endif; ?>
+        </style>
+    <?php endif; ?>
+    <div class="promo-banner-wrapper">
+        <div class="promo-banner-message">
+            <?php if ($promoLink): ?>
+            <a href="<?= $block->escapeUrl($promoLink) ?>">
+            <?php endif; ?>
+            <span><?= $block->escapeHtml($viewModel->getPromoText()) ?></span>
+            <?php if ($promoLink): ?>
+            </a>
+            <?php endif; ?>
+        </div>
+    </div>
+    <?php endif ?>
+<?php endif ?>

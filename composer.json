@@ -1,0 +1,25 @@
+{
+    "name": "magelearn/module-promobanner",
+    "description": "Display a simple promotional banner throughout your website. It also includes the ability to customize the styles of the promotional banner based on expired date selected from datepicker configuration.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "vijaymrami@gmail.com",
+            "name": "vijay rami"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\PromoBanner\\": ""
+        }
+    }
+}
