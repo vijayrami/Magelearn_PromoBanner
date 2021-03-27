@@ -1,7 +1,7 @@
 # Magelearn_PromoBanner
 Display a simple promotional banner throughout your website. It also includes the ability to customize the styles of the promotional banner based on expired date selected from datepicker configuration.
 
-# Magento 2 Free Shipping Progress Bar
+# Magento 2 Promo Banner
 
 ## Description
 ![Free Shipping Progress Bar](https://i.postimg.cc/VkqV2Nqb/free-shipping2.png)
