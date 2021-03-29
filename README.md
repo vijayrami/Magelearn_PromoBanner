@@ -4,7 +4,7 @@ Display a simple promotional banner throughout your website. It also includes th
 # Magento 2 Promo Banner
 
 ## Description
-![Promo Banner](https://i.postimg.cc/wBZ4ZcBH/Home-page.png)
+**![Promo Banner](https://i.postimg.cc/wBZ4ZcBH/Home-page.png)**
 
 This Magento 2 module Display a simple promotional banner throughout your website. It also includes the ability to customize the styles of the promotional banner. It provides better idea about to add color picker and date time configuration in magento admin system configuration option.
 
