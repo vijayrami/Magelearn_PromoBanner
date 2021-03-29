@@ -4,7 +4,7 @@ Display a simple promotional banner throughout your website. It also includes th
 # Magento 2 Promo Banner
 
 ## Description
-[![Ultimo-Home-Page-5.png](https://i.postimg.cc/25KFZyRQ/Ultimo-Home-Page-5.png)](https://postimg.cc/kVWbrn5G)
+[![Ultimo-Home-Page-5-1.png](https://i.postimg.cc/D0j229bw/Ultimo-Home-Page-5-1.png)](https://postimg.cc/xNmr5FRw)
 
 This Magento 2 module Display a simple promotional banner throughout your website. It also includes the ability to customize the styles of the promotional banner. It provides better idea about to add color picker and date time configuration in magento admin system configuration option.
 
