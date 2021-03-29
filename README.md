@@ -41,8 +41,8 @@ To access this module's configuration, navigate to `Stores > Settings > Configur
 
 ### Settings Explanation
 
-#### Enable Free Shipping Progress Bar
-If set to yes, a promo bar will be shown on the header part of your website.
+#### Enable Promo Banner
+If set to yes, a promo banner will be shown on the header part of your website.
 
 ## Compatibility
 This module has been tested and validated to work on Magento versions 2.3 to 2.4.2.
