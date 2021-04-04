@@ -14,7 +14,7 @@ use Magento\Framework\View\Element\Block\ArgumentInterface;
 class PromoBanner extends DataObject implements ArgumentInterface
 {
     /**
-     * System XML config path for ChrisMallory_PromoBanner
+     * System XML config path for Magelearn_PromoBanner
      */
     protected const PROMO_BANNER_XML_CONFIG_PATH = 'header/promo_banner/';
 
